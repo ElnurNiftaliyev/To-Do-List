@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400;700&family=Roboto:wght@500&display=swap');
+ 
+.container {
+    width: 25%;
+    height: 25%;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 232px 408px;
+    position: relative;
+}
+ 
+.header {
+    background: #FFDC40;
+    width: 336px;
+    height: 28px;
+    left: 408px;
+    top: 232px;
+    border-radius: 5px 5px 0px 0px;
+}
+ 
+.title {
+    width: 198px;
+    height: 34px;
+    left: 477px;
+    top: 273px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+ 
+#vector-button {
+    width: 2.5px;
+    height: 15px;
+    left: 675px;
+    top: 325px;
+    background: white;
+    border: none;
+ 
+}
+
+ 
+.vector {
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+    margin-bottom: 12px;
+} 
+.to-do {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+#source {
+    width: 286px;
+    height: 40px;
+    left: 436px;
+    top: 349px;
+    border: 1px solid #C4C4C4;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+}
+.delete {
+    position: absolute;
+    left: 240px;
+    top: 10px;
+    box-sizing: border-box;
+    border:none;
+    background: white;
+}
+ 
+#listbutton1 {
+    height: 40px;
+    background: white;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border: none;
+ 
+}
+ 
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+ 
+.listbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+#mylist {
+    width: 70%;
+    height: 90%;
+}
+#mylist::-webkit-scrollbar{
+    background-color: transparent;
+}
+.clean{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.item{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+}
+
